@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+    font-family: "Roboto",sans-serif;
+}
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+header{
+    background-color: rgb(226, 226, 226);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 1px 50px rgb(184, 184, 184);
+    /* height: 10vh; */
+}
+
+nav{
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8.5vh;
+}
+
+nav .logo{
+    font-size: 1.6rem;
+    color:  rgb(5, 71, 126);padding: 0.5rem 1rem;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 1rem;
+}
+
+nav ul li{
+    list-style: none;
+    transition-property: all;
+    transition-duration: 1s;
+   
+}
+nav ul li a{
+    margin-right: 2.5rem;
+    font-size: 1.2rem;
+    color:  rgb(5, 71, 126);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+nav ul li:hover{color:   rgb(2, 39, 70); transform: scale(1.1);}
+
+#showcase{
+    height: 90vh;
+    overflow: hidden;
+    background: linear-gradient( rgba(5, 71, 126,0.9), rgba(5, 71, 126,0.7)),url("/resources/images/pexels-pixabay-267507.jpg")fixed no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 1rem; */
+}
+
+#showcase .showcase-content{
+    /* background-color: indianred; */
+    width: 45rem;
+    padding: 0.5rem;
+    /* text-align: center; */
+}
+
+.showcase-content h2{
+    font-size: 3.5rem;
+    padding: 1rem 0;
+    color: white;
+    transform: translateY(-350px);
+    animation-name: h2-animate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    font-weight: 500;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+@keyframes h2-animate{
+    to{
+        transform: translateX(0);
+    }
+}
+.showcase-content hr{
+    position: relative;
+    top: -6px;
+    transform: translateX(-1400px);
+    animation-name: line-animate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes line-animate{
+    to{
+        transform: translateX(0);
+    }
+}
+
+.showcase-content p{
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 1.5rem 0;
+    color: white;
+    animation-name: p-animate;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    transform: translateX(1100px);
+
+}
+@keyframes p-animate{
+    to{
+        transform: translateX(0);
+    }
+}
+
+.showcase-content .read-more{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 18.5rem;
+    top:2.5rem ;
+    font-size: 0.9rem;
+    font-weight: 900;
+    background-color:  white;
+    color:rgb(5, 71, 126) ;
+    transition-property: all;
+    transition-duration: 1s;
+    animation-name: read-more-animate;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    transform: translateX(-1100px);
+}
+@keyframes read-more-animate{
+    to{
+        transform: translateX(0);
+    }
+}
+.showcase-content .read-more:hover{
+    background-color: rgb(5, 58, 102);
+    color:  whitesmoke;
+}
+
+#services{
+    margin-top: 1.5rem;
+    /* background-color: salmon; */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+  
+}
+#services .services-content{
+ 
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(2,320px);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 3.5rem;
+}
+.services-content .exceptional-services-box{
+    /* background-color: tomato; */
+    border-bottom-right-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.exceptional-services-box h3{
+    color: rgb(5, 71, 126);
+    font-size: 2.5rem;
+    /* font-weight: 500; */
+    padding: 1rem ;
+}
+.exceptional-services-box p{
+    color: rgb(5, 71, 126);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align:center;
+}
+.services-content .services-box{
+    border: 1px solid rgb(224, 222, 222);
+    border-bottom-right-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 900ms;
+    cursor: pointer;
+    color:  rgb(5, 71, 126);
+    border: solid 2px  rgb(5, 71, 126);
+}
+.services-box h3{
+    font-size: 2rem;
+    padding: 0.5rem 0;
+    
+    /* font-weight: 500; */
+}
+.services-box p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.services-content .services-box:hover{
+    transform: scale(1.1);
+    background-color:  rgb(5, 71, 126);
+    color: white;
+}
+.services-box:nth-child(8){
+    background-color:  rgb(5, 71, 126);
+    color: white;
+}
+.services-box:nth-child(8):hover{
+    color: rgb(5, 71, 126);
+    background-color: white;
+}
+.services-box .icon{
+    font-size: 3.5rem;
+}
+
+#showcase-communication{
+    margin-top: 1.5rem;
+    background: linear-gradient(89deg,rgba(165, 177, 187, 0.4)40%,rgba(5, 71, 126,0.8)60%),url("/resources/images/pexels-mart-production-7709287.jpg") no-repeat center center/cover;
+    /* background-attachment: fixed; */
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#showcase-communication .showcase-communication-content{
+    /* background-color: tomato; */
+    padding: 0.5rem;
+    width: 35.5rem;
+    margin-right: 2rem;
+    color: white;
+    text-align: center;
+}
+.showcase-communication-content h3,h2,p{
+    padding: 1rem 0;
+}
+.showcase-communication-content h3{
+    font-size: 1.5rem;
+}
+.showcase-communication-content h2{
+    font-size: 2rem;
+}
+.showcase-communication-content p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.showcase-communication-content a{
+    text-decoration: none;
+    font-weight: 700;
+    color:rgb(3, 80, 143) ;
+    background-color: white;
+    display: inline-block;
+    margin: 1rem 0.5rem ;
+    transition-property: all;
+    transition-duration: 900ms;
+
+}
+.showcase-communication-content a:hover{
+    background-color:  rgb(5, 58, 102);
+    color: white;
+    transform: scale(1.1);
+}
+
+#stats{
+    margin: 2rem 0;
+    padding: 1rem;
+}
+#stats .stats-content{
+    /* background-color: cornflowerblue; */
+    max-width: 67rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 13rem;
+}
+.stats-content h2{
+    font-size: 2rem;
+    color:rgb(5, 58, 102);
+}
+.stats-content h4{
+    font-size: 1.4rem;
+}
+
+#stories{
+    background-color: white;
+    padding: 1rem;
+}
+#stories .stories-content{
+    
+    max-width:65rem;
+    margin: auto;
+    text-align: center;
+}
+.stories-content h2{
+    font-size: 3rem;
+    padding: 1rem 0;
+    color: rgb(5, 58, 102);
+}
+.stories-content .para{
+    padding-bottom: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.stories-content .story-para{
+    padding-top: 1.5rem;
+}
+.stories-content h4{
+    color: rgb(70, 70, 70);
+    padding-top: 0.5rem;
+}
+footer{
+    background:linear-gradient(45deg,rgb(3, 42, 73),rgba(3, 80, 143,0.6));
+    color: white;
+    margin-top: 6rem;
+    /* display: flex; */
+    padding: 1rem;
+}
+footer .footer-content{
+    /* background-color: tomato; */
+    width: 30rem;
+    margin-left: 5rem;
+}
+.footer-content h2{
+    font-size: 2rem;
+}
+.footer-content p{
+    line-height: 1.5rem;
+}
+.footer-content ul{
+    display: flex;
+}
+.footer-content ul li{
+    list-style: none;
+}
+.fab{
+    margin: 0.5rem 1rem;
+    font-size: 2.5rem;
+    /* background-color: white; */
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 900ms;
+    transition-timing-function: ease-in-out;
+}
+.fab:hover{
+    transform: scale(1.1);
+}
+.copy-rights p{
+    font-size: 0.8rem;
+    margin-left: 4rem;
+    font-weight: 700;
+}
+html p{font-weight: 700;}

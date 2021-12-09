@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+   
+    font-family: "Roboto",sans-serif
+}
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+header{
+    background-color: rgb(226, 226, 226);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 1px 50px rgb(184, 184, 184);
+    /* height: 10vh; */
+}
+
+nav{
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8.5vh;
+}
+
+nav .logo{
+    font-size: 1.6rem;
+    color:  rgb(5, 71, 126);padding: 0.5rem 1rem;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 1rem;
+}
+
+nav ul li{
+    list-style: none;
+    transition-property: all;
+    transition-duration: 1s;
+   
+}
+nav ul li a{
+    margin-right: 2.5rem;
+    font-size: 1.2rem;
+    color:  rgb(5, 71, 126);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+nav ul li:hover{color:   rgb(2, 39, 70); transform: scale(1.1);}
+
+#showcase-contact{
+    height: 50vh;
+    background: linear-gradient(269deg,rgba(5, 71, 126,1),rgba(5, 71, 126,0.5)),url("/resources/images/pexels-tima-miroshnichenko-5453837\ \(1\).jpg")no-repeat center center/cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#showcase-contact .showcase-contact-content{
+
+    width: 20rem;
+
+}
+.showcase-contact-content h1,h2{
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: white;
+}
+.showcase-contact-content i{margin-left: 0.5rem;}
+.additional-contact-section{
+    margin-top: 2.5rem;
+}
+.contact-section-container{
+ 
+    max-width: 60rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30rem 10rem;
+    grid-gap: 4rem;
+}
+.form{
+    background-color: rgb(5, 71, 126);
+    text-align: center;
+    padding-top:1rem ;
+    border-radius: 0.5rem;
+}
+.form label{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+.form input{
+    width: 34%;
+    padding: 0.3rem 0;
+    margin: 1.5rem 0;
+    border: none;
+
+}
+.form textarea,input{
+    border-radius: 0.2rem;
+    padding-left: 0.3rem;
+}
+aside .info{
+    margin-bottom: 2.5rem;
+    padding-top: 1rem;
+}
+.info h3{
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+.form input[type="submit"]{
+    background-color: springgreen;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: rgb(189, 189, 189);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.map-location{
+    background-color: whitesmoke;
+    margin: 3rem 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-location .map{
+    border-radius: 1rem;
+    width: 80vw;
+}
+footer{
+    background:linear-gradient(45deg,rgb(3, 42, 73),rgba(3, 80, 143,0.6));
+    color: white;
+    margin-top: 6rem;
+    /* display: flex; */
+    padding: 1rem;
+}
+footer .footer-content{
+    /* background-color: tomato; */
+    width: 30rem;
+    margin-left: 5rem;
+}
+.footer-content h2{
+    font-size: 2rem;
+}
+.footer-content p{
+    line-height: 1.5rem;
+}
+.footer-content ul{
+    display: flex;
+}
+.footer-content ul li{
+    list-style: none;
+}
+.fab{
+    margin: 0.5rem 1rem;
+    font-size: 2.5rem;
+    /* background-color: white; */
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 900ms;
+    transition-timing-function: ease-in-out;
+}
+.fab:hover{
+    transform: scale(1.1);
+}
+.copy-rights p{
+    font-size: 0.8rem;
+    margin-left: 4rem;
+    padding-top: 1rem;
+    font-weight: 700;
+}
