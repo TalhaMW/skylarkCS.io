@@ -63,7 +63,7 @@ nav ul li:hover{color:   rgb(2, 39, 70); transform: scale(1.1);}
 #showcase{
     height: 90vh;
     overflow: hidden;
-    background: linear-gradient( rgba(5, 71, 126,0.9), rgba(5, 71, 126,0.7)),url("../images/pexels-pixabay-267507.jpg")fixed no-repeat center center/cover;
+    background: linear-gradient( rgba(5, 71, 126,0.9), rgba(5, 71, 126,0.7)),url("images/pexels-pixabay-267507.jpg")fixed no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,7 +250,7 @@ nav ul li:hover{color:   rgb(2, 39, 70); transform: scale(1.1);}
 
 #showcase-communication{
     margin-top: 1.5rem;
-    background: linear-gradient(89deg,rgba(165, 177, 187, 0.4)40%,rgba(5, 71, 126,0.8)60%),url("/resources/images/pexels-mart-production-7709287.jpg") no-repeat center center/cover;
+    background: linear-gradient(89deg,rgba(165, 177, 187, 0.4)40%,rgba(5, 71, 126,0.8)60%),url("images/pexels-mart-production-7709287.jpg") no-repeat center center/cover;
     /* background-attachment: fixed; */
     height: 80vh;
     display: flex;

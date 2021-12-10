@@ -63,7 +63,7 @@ nav ul li:hover{color:   rgb(2, 39, 70); transform: scale(1.1);}
 
 #about-showcase{
     height: 50vh;
-    background: linear-gradient( rgba(5, 71, 126,0.9), rgba(40, 123, 190, 0.9)),url("/resources/images/pexels-mikhail-nilov-7682472.jpg") no-repeat center center/cover;
+    background: linear-gradient( rgba(5, 71, 126,0.9), rgba(40, 123, 190, 0.9)),url("images/pexels-mikhail-nilov-7682472.jpg") no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +133,7 @@ padding: 3rem;
 }
 
 #our-core-values{
-    background: linear-gradient(rgba(255, 255, 255,0.8),rgba(255,255,255,0.8)),url(/resources/images/pexels-pixabay-267507.jpg) fixed no-repeat center center/cover;
+    background: linear-gradient(rgba(255, 255, 255,0.8),rgba(255,255,255,0.8)),url("images/pexels-pixabay-267507.jpg") fixed no-repeat center center/cover;
 }
 .our-core-values-content{
 

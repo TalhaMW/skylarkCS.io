@@ -62,7 +62,7 @@ nav ul li:hover{color:   rgb(2, 39, 70); transform: scale(1.1);}
 
 #showcase-contact{
     height: 50vh;
-    background: linear-gradient(269deg,rgba(5, 71, 126,1),rgba(5, 71, 126,0.5)),url("/resources/images/pexels-tima-miroshnichenko-5453837\ \(1\).jpg")no-repeat center center/cover;
+    background: linear-gradient(269deg,rgba(5, 71, 126,1),rgba(5, 71, 126,0.5)),url("images/pexels-tima-miroshnichenko-5453837\ \(1\).jpg")no-repeat center center/cover;
     display: flex;
     justify-content: flex-end;
     align-items: center;
