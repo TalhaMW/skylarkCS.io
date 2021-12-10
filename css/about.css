@@ -135,10 +135,6 @@ padding: 3rem;
 #our-core-values{
     background: linear-gradient(rgba(255, 255, 255,0.8),rgba(255,255,255,0.8)),url("images/pexels-pixabay-267507.jpg") fixed no-repeat center center/cover;
 }
-.our-core-values-content{
-
-}
-
 .our-values-heading-para {
     display: flex;
     flex-direction: column;
