@@ -301,7 +301,7 @@ nav ul li:hover{color:   rgb(2, 39, 70); transform: scale(1.1);}
     padding: 1rem;
 }
 #stats .stats-content{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     max-width: 67rem;
     margin: auto;
     display: flex;
@@ -408,7 +408,7 @@ html p{font-weight: 700;}
     }
     
     #stats .stats-content{
-        background-color: cornflowerblue;
+
         max-width: 40rem;
         margin: auto;
         display: flex;
