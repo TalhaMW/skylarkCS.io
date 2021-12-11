@@ -420,5 +420,11 @@ html p{font-weight: 700;}
     }
     .stats-content h2{font-size: 1.3rem;}
     .stats-content h4{font-size: 0.8rem;}
+    #stories .stories-content{max-width:40rem;}
+    footer .footer-content{
+        /* background-color: tomato; */
+        width: 20rem;
+        margin-left: 5rem;
+    }
 
 }
