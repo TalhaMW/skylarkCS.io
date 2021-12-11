@@ -301,7 +301,7 @@ nav ul li:hover{color:   rgb(2, 39, 70); transform: scale(1.1);}
     padding: 1rem;
 }
 #stats .stats-content{
-    /* background-color: cornflowerblue; */
+    background-color: cornflowerblue;
     max-width: 67rem;
     margin: auto;
     display: flex;
@@ -400,11 +400,25 @@ html p{font-weight: 700;}
  
         padding: 0.5rem;
         display: grid;
-        grid-template-columns: repeat(2,180px);
+        grid-template-columns: repeat(2,170px);
         grid-template-rows: repeat(2,250px);
         grid-auto-rows: 250px;
         grid-column-gap: 1.5rem;
         grid-row-gap: 3.5rem;
     }
+    
+    #stats .stats-content{
+        background-color: cornflowerblue;
+        max-width: 40rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 13rem;
+        
+    }
+    .stats-content h2{font-size: 1.3rem;}
+    .stats-content h4{font-size: 0.8rem;}
 
 }
