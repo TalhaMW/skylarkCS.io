@@ -388,11 +388,11 @@ footer .footer-content{
 html p{font-weight: 700;}
 
 @media screen and (max-width:576px) {
-    html{font-size: 10px;}
-    nav{max-width: 48rem;margin: auto;height: 4vh;}
-    nav .logo{font-size: 1.2rem;padding: 0.3rem 0.5rem;}
-    nav ul{display: flex}
-    nav ul li a{font-size: 0.9rem;}
+    html{font-size: 11px;}
+    nav{width: 100vw;margin: auto;height: 5vh;}
+    nav .logo{font-size: 1.3rem;background-color: crimson;}
+    nav ul{display: flex;margin: 0;}
+    nav ul li a{font-size: 1.2rem;}
 
     
 }
