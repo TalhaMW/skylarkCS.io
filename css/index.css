@@ -26,7 +26,7 @@ header{
 }
 
 nav{
-    max-width: 1150px;
+    max-width: 76.6rem;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -42,6 +42,7 @@ nav .logo{
 nav ul{
     display: flex;
     margin-right: 1rem;
+   
 }
 
 nav ul li{
@@ -385,3 +386,13 @@ footer .footer-content{
     font-weight: 700;
 }
 html p{font-weight: 700;}
+
+@media screen and (max-width:490px) {
+    html{font-size: 10px;}
+    nav{max-width: 48rem;margin: auto;height: 4vh;}
+    nav .logo{font-size: 1.2rem;padding: 0.3rem 0.5rem;}
+    nav ul{display: flex}
+    nav ul li a{font-size: 0.9rem;}
+
+    
+}
